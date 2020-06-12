@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div>
+		<p class="headline">Who should I follow?</p>
+		<form action="/recommend" method="GET">
+			<input type="text" name="username" placeholder="Twitter handle" class="input-handle"/>
+			<input type="text" name="limit" placeholder="Number of people to analyze (e.g. 20)" class="input-limit"/>
+			<input type="submit" class="submit" value="Find people to follow">	
+		</form>
+		<a href="/how-it-works"><p class="how-it-works">Learn how it works</p></a>
+	</div>
+</body>
+</html>
